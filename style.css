@@ -83,7 +83,7 @@ button {
   text-transform: uppercase;
 }
 
-.task__input {
+.task-item__input {
   display: none;
   margin: 0;
   font-size: 18px;
@@ -97,7 +97,7 @@ button {
   color: #888;
 }
 
-.task__input:focus {
+.task-item__input:focus {
   color: #333;
 }
 
@@ -127,7 +127,7 @@ button {
   vertical-align: middle;
 }
 
-.list-item__checkbox {
+.task-item__checkbox {
   margin: 0 10px;
 }
 
@@ -154,7 +154,7 @@ button {
   color: #888;
 }
 
-._edit-mode > .task__input {
+._edit-mode > .task-item__input {
   display: inline-block;
   width: 224px;
 }
